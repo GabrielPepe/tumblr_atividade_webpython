@@ -1,0 +1,88 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-color: rgb(52, 88, 111);
+    color: #fff;
+}
+
+nav a{
+    background-color: rgb(228, 228, 228);
+}
+
+a{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+input{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+img{
+    max-height: 400px;
+}
+
+.home{
+    text-align: center;
+    background-color: rgb(52, 88, 111);
+    color: #fff;
+    padding:24.2rem
+}
+
+.home a{
+    color: rgb(212, 212, 212)
+}
+
+.create-post{
+    margin-left: 5vh;
+    padding: 1rem 16rem 1rem 16rem;
+    margin-left: 30%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.deleteClass{
+    color: red;
+    font-weight: bold;
+}
+
+.post-div{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+input[type='submit'] {
+    padding: 10px;
+    background-color: rgb(14, 58, 85);
+    border-radius: 30%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.register-form {
+    background-color: rgb(52, 88, 111);
+    color: #fff;
+    padding:26rem;
+    text-align: center;
+}
+
+.register-div{
+    text-align: center;
+    display: grid;
+    margin: -50px 450px 50px 100px;
+    grid-template-columns: 1fr 1fr;
+}
